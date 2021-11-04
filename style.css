@@ -13,5 +13,17 @@ canvas {
   position: absolute;
   top: 0;
   left: 0;
-  
+  z-index: -1;  
+}
+
+main {
+  display: flex;
+}
+
+h1 {
+  z-index: 3;
+  color: white;
+  display:flex;
+  justify-content: flex-end;
+  border: 0 solid red;
 }
